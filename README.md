@@ -1,21 +1,9 @@
 [![](https://github.com/ros-drivers/velodyne/workflows/Basic%20Build%20Workflow/badge.svg)](https://github.com/ros-drivers/velodyne/actions)
 
-Overview
-========
+注意事项：
+雷达的IP地址：192.168.1.201
 
-Velodyne<sup>1</sup> is a collection of ROS<sup>2</sup> packages supporting `Velodyne high
-definition 3D LIDARs`<sup>3</sup>.
+创建自己的工程文件，将文件拷贝到src中
+roslaunch velodyne_pointcloud VLP-32C_points.launch
+rosrun rviz rviz -f velodyne
 
-**Warning**:
-
-  The master branch normally contains code being tested for the next
-  ROS release.  It will not always work with every previous release.
-  To check out the source for the most recent release, check out the
-  tag `<version>` with the highest version number.
-
-The current ``master`` branch works with ROS Kinetic and Melodic.
-CI builds are currently run for Kinetic and Melodic.
-
-- <sup>1</sup>Velodyne: http://www.ros.org/wiki/velodyne
-- <sup>2</sup>ROS: http://www.ros.org
-- <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
