@@ -1,4 +1,3 @@
-[![](https://github.com/ros-drivers/velodyne/workflows/Basic%20Build%20Workflow/badge.svg)](https://github.com/ros-drivers/velodyne/actions)
 
 注意事项：
 雷达的IP地址：192.168.1.201
